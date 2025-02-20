@@ -1,0 +1,6 @@
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='activity_freq', y='energy_expenditure', data=data)
+plt.title("Activity Frequency vs. Energy Expenditure")
+plt.xlabel("Activity Frequency (counts/min)")
+plt.ylabel("Energy Expenditure (kcal/hour)")
+plt.show()
