@@ -1,0 +1,5 @@
+plt.figure(figsize=(10, 6))
+sns.histplot(data['heart_rate'], bins=20, kde=True)
+plt.title("Heart Rate Distribution")
+plt.xlabel("Heart Rate (BPM)")
+plt.show()
