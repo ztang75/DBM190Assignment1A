@@ -1,0 +1,5 @@
+plt.figure(figsize=(10, 6))
+sns.histplot(data['activity_freq'], bins=15, kde=True)
+plt.title("Activity Frequency Distribution")
+plt.xlabel("Activity Frequency (counts/min)")
+plt.show()
